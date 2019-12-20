@@ -7,7 +7,7 @@ public class Admin {
     public Admin() {
 
     }
-    //ini untuk control ke db admin
+    //ini untuk control ke db admin sdi tambah text
 
     public Admin(String nim, String password, String name, String email,  String phone) {
         this.nim = nim;
