@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Pemilih.Daftar">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:ignore="UselessParent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="25dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/humanika"
+                android:contentDescription="@string/todo"
+                tools:ignore="InefficientWeight" />
+
+            <EditText
+                android:id="@+id/nimVoter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_nim_anda"
+                android:maxLength="9"
+                android:inputType="number"
+                android:importantForAutofill="no"
+                tools:targetApi="o"/>
+
+            <EditText
+                android:id="@+id/nameVoter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_nama"
+                android:inputType="text"
+                android:importantForAutofill="no"
+                tools:targetApi="o"/>
+
+            <EditText
+                android:id="@+id/emailVoter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_alamat_email"
+                android:inputType="textEmailAddress"
+                android:importantForAutofill="no"
+                tools:targetApi="o"/>
+
+            <EditText
+                android:id="@+id/telpVoter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_no_telephone"
+                android:inputType="number"
+                android:maxLength="13"
+                android:nextFocusDown="@id/ButtonSave"
+                android:importantForAutofill="no"
+                tools:targetApi="o"/>
+
+            <Button
+                android:id="@+id/ButtonSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/daftar"/>
+
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorAccent"
+                android:text="@string/batal"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+app:columnCount="2"
+app:rowCount="2"
+android:layout_margin="15dp"
+tools:context=".Calon.CalonActivity">
+
+<FrameLayout
+    app:layout_columnWeight="1"
+    app:layout_rowWeight="1"
+    android:background="#A9A9A9"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idAddCandidate"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/user"
+            app:srcCompat="@android:drawable/ic_menu_add"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/tambah_calon"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+</FrameLayout>
+
+<FrameLayout
+    app:layout_columnWeight="1"
+    app:layout_rowWeight="1"
+    android:background="#2E8B57"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idReadCandidate"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/rate"
+            app:srcCompat="@android:drawable/ic_menu_agenda"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/lihat_calon"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+</FrameLayout>
+<FrameLayout
+    android:layout_margin="10dp"
+    app:layout_columnWeight="1"
+    app:layout_rowWeight="1"
+    android:background="#D2691E">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idDeleteVoter"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/job"
+            app:srcCompat="@android:drawable/ic_menu_delete"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/job"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/edit_hapus_calon"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+</FrameLayout>
+
+<FrameLayout
+    android:layout_margin="10dp"
+    app:layout_columnWeight="1"
+    app:layout_rowWeight="1"
+    android:background="#800000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button_back"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/back"
+            android:textColor="#ffffff"/>
+
+
+    </RelativeLayout>
+</FrameLayout>
+</android.support.v7.widget.GridLayout>

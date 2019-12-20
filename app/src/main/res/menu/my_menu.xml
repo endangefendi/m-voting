@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fend.m_voting.MainActivity">
+
+    <item android:id="@+id/button_login"
+        android:title="Admin App"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/about"
+    android:title="About"
+    app:showAsAction="never">
+    </item>
+    <item android:id="@+id/close"
+        android:title="Close"
+        app:showAsAction="never">
+    </item>
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "817893227333",
+    "firebase_url": "https://skripsivote.firebaseio.com",
+    "project_id": "skripsivote",
+    "storage_bucket": "skripsivote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817893227333:android:facf4e94f6b9337c",
+        "android_client_info": {
+          "package_name": "com.fend.m_voting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817893227333-6dnd2sst0mhf07moq82ohj4ebb5jhfr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fend.m_voting",
+            "certificate_hash": "5c523ab4e0d69e036c3b51efbd46e543dec75b5b"
+          }
+        },
+        {
+          "client_id": "817893227333-aug55dpms8fp65v04hkhdklkipdqnl2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8I8URp5KYV3F4xovMFdWLYOuxmjXLowg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817893227333-aug55dpms8fp65v04hkhdklkipdqnl2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
